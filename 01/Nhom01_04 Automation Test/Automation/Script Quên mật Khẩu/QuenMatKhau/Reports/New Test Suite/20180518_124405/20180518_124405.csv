@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 66.0.3359.181,,2018-05-18 12:44:08,2018-05-18 12:45:10,1m - 1.897s,PASSED
+,,,,,,
+Test Cases/New Test Case,Chrome 66.0.3359.181,,2018-05-18 12:44:08,2018-05-18 12:45:09,1m - 1.051s,PASSED
+"Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getRowNumbers(), (i++)])",Chrome 66.0.3359.181,,2018-05-18 12:44:09,2018-05-18 12:45:09,1m - 0.299s,PASSED

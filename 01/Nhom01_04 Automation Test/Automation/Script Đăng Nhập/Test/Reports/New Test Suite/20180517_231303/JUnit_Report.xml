@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="69" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="69" timestamp="2018-05-17 23:13:06" hostname="Yuu - DESKTOP-4NTC6CI" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Yuu\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180517_231303"/>
+         <property name="logFiles" value="C:\\Users\\Yuu\\Katalon Studio\\Test\\Reports\\New Test Suite\\20180517_231303\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yuu - DESKTOP-4NTC6CI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.177.86.188"/>
+         <property name="sessionId" value="593ee2b85f739c9505743e9af2e3a142"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2018-05-17 23:13:06 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2018-05-17 23:13:07 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getRowNumbers(), (i++)]): Browser is closed
+
+2018-05-17 23:13:08 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("UserName", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:08 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("Password", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-17 23:13:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-17 23:13:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:23 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:25 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:25 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:25 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - Statement - If (i == 1): Actual text and expected text of test object 'Object Repository/div_Your login attempt was not' are matched.
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/div_Your login attempt was not' are matched.
+
+2018-05-17 23:13:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/div_Your login attempt was not' are matched.
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-17 23:13:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 23:13:28 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-17 23:13:28 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("UserName", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:28 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("Password", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-17 23:13:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-17 23:13:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:40 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - Statement - If (i == 2): Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/UserRe' are matched.
+
+2018-05-17 23:13:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UserRe' are matched.
+
+2018-05-17 23:13:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:13:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 23:13:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("UserName", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("Password", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-17 23:13:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-17 23:13:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:56 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:13:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:58 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - Statement - If (i == 3): Actual text and expected text of test object 'Object Repository/UserRe' are matched.
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/UserRe' are matched.
+
+2018-05-17 23:13:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UserRe' are matched.
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-17 23:13:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 23:13:59 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-17 23:13:59 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("UserName", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:59 - [TEST_STEP][PASSED] - Statement - out.print(com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getValue("Password", i)): Reading excel file with source file 'C:\Users\Yuu\Desktop\DataTest.xlsx' and sheet name 'Sheet1'
+
+2018-05-17 23:13:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-17 23:14:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-17 23:14:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:14:12 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com' successfully
+
+2018-05-17 23:14:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Login' is clicked on
+
+2018-05-17 23:14:13 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:14:14 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/input_ctl00MainContentLoginVie'
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:14:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_ctl00MainContentLoginVie (1)'
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/input_ctl00MainContentLoginVie (2)' is clicked on
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - Statement - If (i == 4): Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:14:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PassRe' are matched.
+
+2018-05-17 23:14:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-17 23:14:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-17 23:13:06 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

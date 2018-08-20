@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="73" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="73" timestamp="2018-05-18 13:42:02" hostname="Yuu - DESKTOP-4NTC6CI" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Yuu\\Katalon Studio\\QuenMatKhau\\Reports\\New Test Suite\\20180518_134159"/>
+         <property name="logFiles" value="C:\\Users\\Yuu\\Katalon Studio\\QuenMatKhau\\Reports\\New Test Suite\\20180518_134159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yuu - DESKTOP-4NTC6CI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="0e790134c0a8960c2b81fa3098215b0d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2018-05-18 13:42:03 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2018-05-18 13:42:04 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(New Test Data).getRowNumbers(), (i++)]): Browser is closed
+
+2018-05-18 13:42:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 13:42:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 13:42:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:19 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:20 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:20 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:20 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:21 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:22 - [TEST_STEP][PASSED] - Statement - If (i == 1): Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (1)/span_' are matched.
+
+2018-05-18 13:42:22 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (1)/span_' are matched.
+
+2018-05-18 13:42:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (1)/span_' are matched.
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-18 13:42:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-18 13:42:24 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-18 13:42:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 13:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 13:42:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:37 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:39 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:39 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:39 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:39 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:41 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-18 13:42:41 - [TEST_STEP][PASSED] - Statement - If (i == 2): Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (2)/td_We were unable to access yo' are matched.
+
+2018-05-18 13:42:41 - [TEST_STEP][PASSED] - setText: Text 'abcd' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:41 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (2)/td_We were unable to access yo' are matched.
+
+2018-05-18 13:42:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (2)/td_We were unable to access yo' are matched.
+
+2018-05-18 13:42:42 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-18 13:42:42 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-18 13:42:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-18 13:42:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-18 13:42:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 13:42:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 13:42:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:54 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:42:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:42:55 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:55 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:42:55 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:42:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:42:56 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-18 13:42:56 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-18 13:42:56 - [TEST_STEP][PASSED] - Statement - If (i == 3): Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (3)/span_' are matched.
+
+2018-05-18 13:42:56 - [TEST_STEP][PASSED] - setText: Text '1642068' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:57 - [MESSAGE][PASSED] - Text '1642068' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:42:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:42:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_2'
+
+2018-05-18 13:42:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_2'
+
+2018-05-18 13:42:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_3' is clicked on
+
+2018-05-18 13:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_3' is clicked on
+
+2018-05-18 13:42:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (3)/span_' are matched.
+
+2018-05-18 13:42:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (3)/span_' are matched.
+
+2018-05-18 13:42:59 - [TEST_STEP][PASSED] - Statement - If (i == 4): null
+
+2018-05-18 13:42:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-18 13:42:59 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-18 13:42:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-18 13:43:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-18 13:43:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:43:08 - [MESSAGE][PASSED] - Navigate to 'http://www.sieuthiversion3.somee.com/?AspxAutoDetectCookieSupport=1' successfully
+
+2018-05-18 13:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Login' is clicked on
+
+2018-05-18 13:43:10 - [TEST_STEP][PASSED] - setText: Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:43:10 - [MESSAGE][PASSED] - Text 'Hung' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie'
+
+2018-05-18 13:43:10 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:43:10 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentLoginVie_1'
+
+2018-05-18 13:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/a_Forgot Password' is clicked on
+
+2018-05-18 13:43:11 - [TEST_STEP][PASSED] - Statement - If (i == 1): null
+
+2018-05-18 13:43:11 - [TEST_STEP][PASSED] - Statement - If (i == 2): null
+
+2018-05-18 13:43:11 - [TEST_STEP][PASSED] - Statement - If (i == 3): null
+
+2018-05-18 13:43:11 - [TEST_STEP][PASSED] - Statement - If (i == 4): Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (4)/td_Your answer could not be ve' are matched.
+
+2018-05-18 13:43:11 - [TEST_STEP][PASSED] - setText: Text '1642068' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:43:12 - [MESSAGE][PASSED] - Text '1642068' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword'
+
+2018-05-18 13:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_1' is clicked on
+
+2018-05-18 13:43:13 - [TEST_STEP][PASSED] - setText: Text 'add' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_2'
+
+2018-05-18 13:43:13 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_2'
+
+2018-05-18 13:43:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_3' is clicked on
+
+2018-05-18 13:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Super Market an Ecommerce Onli/input_ctl00MainContentPassword_3' is clicked on
+
+2018-05-18 13:43:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (4)/td_Your answer could not be ve' are matched.
+
+2018-05-18 13:43:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Super Market an Ecommerce Onli (4)/td_Your answer could not be ve' are matched.
+
+2018-05-18 13:43:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-18 13:43:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-18 13:42:02 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
